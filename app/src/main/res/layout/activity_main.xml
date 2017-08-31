@@ -84,7 +84,6 @@
                 android:layout_marginTop="25dp"
                 android:checked="false"
                 android:duplicateParentState="false"
-                android:onClick="getLanguages"
                 android:text="Yandex" />
 
         </TableRow>
@@ -151,7 +150,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="1dp"
                 android:layout_marginStart="1dp"
-                android:onClick="doTranslate"
+                android:onClick="getTranslated"
                 android:text="Translate"
                 />
 
@@ -163,7 +162,9 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
-                android:text="Clear" />
+                android:text="Clear"
+                android:clickable="false"
+                android:onClick="onClickClear" />
 
         </TableRow>
 
