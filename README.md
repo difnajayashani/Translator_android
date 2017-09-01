@@ -8,3 +8,8 @@ A list of languages are shown in a dropdown list, so that the user can select an
  - Yandex API key
  - Google API key
  
+### Configuration and building
+
+ - 
+
+ 
